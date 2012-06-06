@@ -90,6 +90,7 @@ AUTHENTICATION_BACKENDS = (
     'social_auth.backends.contrib.odnoklassniki.OdnoklassnikiBackend',
     'social_auth.backends.contrib.vkontakte.VKontakteOAuth2Backend',
     'social_auth.backends.contrib.mailru.MailruBackend',
+    'social_auth.backends.contrib.evernote',
     'django.contrib.auth.backends.ModelBackend',
 )
 
